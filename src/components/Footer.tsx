@@ -64,6 +64,12 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p>&copy; {currentYear} J&J Tecidos e Aviamentos. Todos os direitos reservados.</p>
+          <span className="credit">
+            Desenvolvido com 💙 por{" "}
+            <a href="https://exata-mente.vercel.app/" target="_blank" rel="noopener noreferrer" className="dev-brand">
+              Exata<span>-Mente</span>
+            </a>
+          </span>
           <div className="social">
             <a
               href="https://www.instagram.com/jej_aviamentos/"
@@ -174,6 +180,26 @@ export default function Footer() {
         .footer-bottom p {
           font-size: 13px;
           color: rgba(255, 255, 255, 0.45);
+        }
+
+        .credit {
+          font-size: 13px;
+          color: rgba(255, 255, 255, 0.45);
+        }
+
+        .dev-brand {
+          color: rgba(255, 255, 255, 0.65);
+          text-decoration: none;
+          font-weight: 600;
+          transition: color 0.25s ease;
+        }
+
+        .dev-brand:hover {
+          color: white;
+        }
+
+        .dev-brand span {
+          font-weight: 300;
         }
 
         .social {
