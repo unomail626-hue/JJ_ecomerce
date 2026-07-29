@@ -280,6 +280,23 @@ select:focus-visible {
   }
 }
 
+/* 🔒 Ocultar preços temporariamente */
+.card-pricing,
+.card-original,
+.card-price,
+.card-unit,
+.product-pricing,
+.product-original,
+.product-price,
+.product-unit,
+.drawer-item-price,
+.drawer-total,
+.cart-row-price,
+.cart-row-total,
+.cart-total-row {
+  display: none !important;
+}
+
 @keyframes shimmer {
   0% {
     background-position: -200% 0;
