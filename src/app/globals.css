@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --azul: #2727a8;
   --azul-claro: #3d3dd4;
   --azul-escuro: #1b1b70;
@@ -315,4 +315,4 @@ select:focus-visible {
   );
   background-size: 400% 100%;
   animation: shimmer 1.4s ease infinite;
-} */
+}
